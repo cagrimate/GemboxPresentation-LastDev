@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "XGChZPKG7Tkplie+I8XbptlTcp6/Tay/jQQ40YPNJ9zqGNOXuqePNosCU3Q7CYAdgua88XYxmvnJ2HVxp3kRkw==",
+  "success": true,
+  "projectFilePath": "/Users/cagritumer/Projects/GemboxConsole/GemboxConsole/GemboxConsole.csproj",
+  "expectedPackageFiles": [
+    "/Users/cagritumer/.nuget/packages/anglesharp/0.16.1/anglesharp.0.16.1.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/anglesharp.css/0.16.2/anglesharp.css.0.16.2.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/documentformat.openxml/2.18.0/documentformat.openxml.2.18.0.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/gembox.pdf/17.0.1200/gembox.pdf.17.0.1200.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/gembox.presentation/25.0.1315/gembox.presentation.25.0.1315.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/gembox.spreadsheet/49.0.1103/gembox.spreadsheet.49.0.1103.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/harfbuzzsharp/2.8.2/harfbuzzsharp.2.8.2.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/harfbuzzsharp.nativeassets.macos/2.8.2/harfbuzzsharp.nativeassets.macos.2.8.2.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/harfbuzzsharp.nativeassets.win32/2.8.2/harfbuzzsharp.nativeassets.win32.2.8.2.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/pkcs11interop/5.1.1/pkcs11interop.5.1.1.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/portable.bouncycastle/1.8.9/portable.bouncycastle.1.8.9.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/restsharp/108.0.1/restsharp.108.0.1.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/shapecrawler/0.32.0/shapecrawler.0.32.0.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/skiasharp/2.80.3/skiasharp.2.80.3.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/system.drawing.common/5.0.3/system.drawing.common.5.0.3.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/system.io.packaging/4.7.0/system.io.packaging.4.7.0.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/system.resources.extensions/5.0.0/system.resources.extensions.5.0.0.nupkg.sha512",
+    "/Users/cagritumer/.nuget/packages/system.text.encoding.codepages/5.0.0/system.text.encoding.codepages.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

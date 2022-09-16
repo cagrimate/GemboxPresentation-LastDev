@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GemboxConsole", "GemboxConsole\GemboxConsole.csproj", "{F55AB810-851D-4573-9FE8-CDF35E12527C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F55AB810-851D-4573-9FE8-CDF35E12527C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55AB810-851D-4573-9FE8-CDF35E12527C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55AB810-851D-4573-9FE8-CDF35E12527C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55AB810-851D-4573-9FE8-CDF35E12527C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84E373D4-108C-4AE1-B909-7FDFADD94522}
+	EndGlobalSection
+EndGlobal

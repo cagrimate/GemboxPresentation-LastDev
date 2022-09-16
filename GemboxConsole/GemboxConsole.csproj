@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="GemBox.Pdf" />
+    <None Remove="GemBox.Presentation" />
+    <None Remove="GemBox.Spreadsheet" />
+    <None Remove="RestSharp" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="ShapeCrawler" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="GemBox.Pdf" Version="17.0.1200" />
+    <PackageReference Include="GemBox.Presentation" Version="25.0.1315" />
+    <PackageReference Include="GemBox.Spreadsheet" Version="49.0.1103" />
+    <PackageReference Include="RestSharp" Version="108.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="ShapeCrawler" Version="0.32.0" />
+  </ItemGroup>
+</Project>

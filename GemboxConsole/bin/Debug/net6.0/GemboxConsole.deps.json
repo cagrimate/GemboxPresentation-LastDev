@@ -1,0 +1,483 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "GemboxConsole/1.0.0": {
+        "dependencies": {
+          "GemBox.Pdf": "17.0.1200",
+          "GemBox.Presentation": "25.0.1315",
+          "GemBox.Spreadsheet": "49.0.1103",
+          "Newtonsoft.Json": "13.0.1",
+          "RestSharp": "108.0.1",
+          "ShapeCrawler": "0.32.0"
+        },
+        "runtime": {
+          "GemboxConsole.dll": {}
+        }
+      },
+      "AngleSharp/0.16.1": {
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Text.Encoding.CodePages": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AngleSharp.dll": {
+            "assemblyVersion": "0.16.1.0",
+            "fileVersion": "0.16.1.0"
+          }
+        }
+      },
+      "AngleSharp.Css/0.16.2": {
+        "dependencies": {
+          "AngleSharp": "0.16.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AngleSharp.Css.dll": {
+            "assemblyVersion": "0.16.2.0",
+            "fileVersion": "0.16.2.0"
+          }
+        }
+      },
+      "DocumentFormat.OpenXml/2.18.0": {
+        "dependencies": {
+          "System.IO.Packaging": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {
+            "assemblyVersion": "2.18.0.0",
+            "fileVersion": "2.18.0.0"
+          }
+        }
+      },
+      "GemBox.Pdf/17.0.1200": {
+        "dependencies": {
+          "HarfBuzzSharp": "2.8.2",
+          "Pkcs11Interop": "5.1.1",
+          "Portable.BouncyCastle": "1.8.9",
+          "SkiaSharp": "2.80.3",
+          "System.Drawing.Common": "5.0.3",
+          "System.Text.Encoding.CodePages": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/GemBox.Pdf.dll": {
+            "assemblyVersion": "17.0.0.1200",
+            "fileVersion": "17.0.310.1200"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.1/GemBox.Pdf.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "17.0.0.1200",
+            "fileVersion": "17.0.200.1200"
+          }
+        }
+      },
+      "GemBox.Presentation/25.0.1315": {
+        "dependencies": {
+          "Portable.BouncyCastle": "1.8.9",
+          "SkiaSharp": "2.80.3",
+          "System.Drawing.Common": "5.0.3",
+          "System.Text.Encoding.CodePages": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/GemBox.Presentation.dll": {
+            "assemblyVersion": "25.0.0.1315",
+            "fileVersion": "25.0.310.1315"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.1/GemBox.Presentation.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "25.0.0.1315",
+            "fileVersion": "25.0.200.1315"
+          }
+        }
+      },
+      "GemBox.Spreadsheet/49.0.1103": {
+        "dependencies": {
+          "HarfBuzzSharp": "2.8.2",
+          "Portable.BouncyCastle": "1.8.9",
+          "SkiaSharp": "2.80.3",
+          "System.Text.Encoding.CodePages": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/GemBox.Spreadsheet.dll": {
+            "assemblyVersion": "49.0.0.1103",
+            "fileVersion": "49.0.310.1103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.1/GemBox.Spreadsheet.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "49.0.0.1103",
+            "fileVersion": "49.0.200.1103"
+          }
+        }
+      },
+      "HarfBuzzSharp/2.8.2": {
+        "dependencies": {
+          "HarfBuzzSharp.NativeAssets.Win32": "2.8.2",
+          "HarfBuzzSharp.NativeAssets.macOS": "2.8.2",
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/HarfBuzzSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "2.8.2.0"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.macOS/2.8.2": {
+        "runtimeTargets": {
+          "runtimes/osx/native/libHarfBuzzSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.Win32/2.8.2": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libHarfBuzzSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libHarfBuzzSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libHarfBuzzSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "Microsoft.Win32.SystemEvents/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Pkcs11Interop/5.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/Pkcs11Interop.dll": {
+            "assemblyVersion": "5.1.1.0",
+            "fileVersion": "5.1.1.0"
+          }
+        }
+      },
+      "Portable.BouncyCastle/1.8.9": {
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.9.0",
+            "fileVersion": "1.8.9.1"
+          }
+        }
+      },
+      "RestSharp/108.0.1": {
+        "runtime": {
+          "lib/net6.0/RestSharp.dll": {
+            "assemblyVersion": "108.0.1.0",
+            "fileVersion": "108.0.1.0"
+          }
+        }
+      },
+      "ShapeCrawler/0.32.0": {
+        "dependencies": {
+          "AngleSharp": "0.16.1",
+          "AngleSharp.Css": "0.16.2",
+          "DocumentFormat.OpenXml": "2.18.0",
+          "System.Drawing.Common": "5.0.3",
+          "System.Resources.Extensions": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/ShapeCrawler.dll": {
+            "assemblyVersion": "0.32.0.0",
+            "fileVersion": "0.32.0.0"
+          }
+        }
+      },
+      "SkiaSharp/2.80.3": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SkiaSharp.dll": {
+            "assemblyVersion": "2.80.0.0",
+            "fileVersion": "2.80.3.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "System.Buffers/4.5.1": {},
+      "System.Drawing.Common/5.0.3": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "5.0.0.2",
+            "fileVersion": "5.0.1221.52207"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.2",
+            "fileVersion": "5.0.1221.52207"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.2",
+            "fileVersion": "5.0.1221.52207"
+          }
+        }
+      },
+      "System.IO.Packaging/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.IO.Packaging.dll": {
+            "assemblyVersion": "4.0.5.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {},
+      "System.Resources.Extensions/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Resources.Extensions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GemboxConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AngleSharp/0.16.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1k7Vbfmr5IUsGaR0QJwTe8XF9zacFUIoWxMgI4X/ipiyKxCWZJZoaG96fNEugL90iubvboRvE1IxuBPibET/Rg==",
+      "path": "anglesharp/0.16.1",
+      "hashPath": "anglesharp.0.16.1.nupkg.sha512"
+    },
+    "AngleSharp.Css/0.16.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AAldDEomz55kaw9Lj85/RbatZ1BYSbOFSztXqqzFKNkh8XVhRkiZlgItYOuvoP4+XX79/NWHqkUsiA1qMuqEfA==",
+      "path": "anglesharp.css/0.16.2",
+      "hashPath": "anglesharp.css.0.16.2.nupkg.sha512"
+    },
+    "DocumentFormat.OpenXml/2.18.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5fmehgA7WmJD551QwBhvjSsEmMbCQ/yfW83ZLfbPx1TeQGm0ikGIwAvz/XfO4veCjYWpBQfFH9elVhC2Y+HatQ==",
+      "path": "documentformat.openxml/2.18.0",
+      "hashPath": "documentformat.openxml.2.18.0.nupkg.sha512"
+    },
+    "GemBox.Pdf/17.0.1200": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yN17aNFHP2Sqe5k9Y3R2um14rnErYF/gfHTBm5xXVU4y1lC2b9l+Of0pC2f7/NwMtM+n3p4cAnbqmLKA+PgX7w==",
+      "path": "gembox.pdf/17.0.1200",
+      "hashPath": "gembox.pdf.17.0.1200.nupkg.sha512"
+    },
+    "GemBox.Presentation/25.0.1315": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UHCEkYADprwoTXp0uAcxwx9C/29oouheDY32kJ3adnluJp/PsD9GVgq66WCQpg6WirwUX1iYPwq0jHtbjMlE/g==",
+      "path": "gembox.presentation/25.0.1315",
+      "hashPath": "gembox.presentation.25.0.1315.nupkg.sha512"
+    },
+    "GemBox.Spreadsheet/49.0.1103": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uQ81SEq6YyqS9DB4F7wwSnIdb2LzF8uanWaJjZCFcBg8mHwXuzhCJxAznz+1O1ipoQW9cCVAj6UzzNL6EIdAsQ==",
+      "path": "gembox.spreadsheet/49.0.1103",
+      "hashPath": "gembox.spreadsheet.49.0.1103.nupkg.sha512"
+    },
+    "HarfBuzzSharp/2.8.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FE1LiYN6XhSafzpI1NXrKJKsfNCcnaYaRlH5qu8Tl4f03tfu5i9b8uk1JjqsuaBJgCHCoGobukFOWcNNNGjbCA==",
+      "path": "harfbuzzsharp/2.8.2",
+      "hashPath": "harfbuzzsharp.2.8.2.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.macOS/2.8.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iX9qhY3MRvwAmUwfxnTCWms+xpLVM0DPFhDdS0KmXl9TAMh3dHaqcL9oQmn20MtaMz6kS/isJeJNzDFJM8EKYQ==",
+      "path": "harfbuzzsharp.nativeassets.macos/2.8.2",
+      "hashPath": "harfbuzzsharp.nativeassets.macos.2.8.2.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.Win32/2.8.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FDCEa1e7s8ILADfzpdjoNbVzIxYeMRirVDlEGdPpFOf22djw6a7S2pHA+LQGwJLgffniTrjpbOVNJP3PvSyYpg==",
+      "path": "harfbuzzsharp.nativeassets.win32/2.8.2",
+      "hashPath": "harfbuzzsharp.nativeassets.win32.2.8.2.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
+      "path": "microsoft.win32.systemevents/5.0.0",
+      "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Pkcs11Interop/5.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YDj3v4LN318ToSLeg+5NSJUhH2rpmUGsQN/XL87rMVkq5iZnaV759c3unFJR+W83hGV72I8aa6v+eI8jnstFlg==",
+      "path": "pkcs11interop/5.1.1",
+      "hashPath": "pkcs11interop.5.1.1.nupkg.sha512"
+    },
+    "Portable.BouncyCastle/1.8.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wlJo8aFoeyl+W93iFXTK5ShzDYk5WBqoUPjTNEM0Xv9kn1H+4hmuCjF0/n8HLm9Nnp1aY6KNndWqQTNk+NGgRQ==",
+      "path": "portable.bouncycastle/1.8.9",
+      "hashPath": "portable.bouncycastle.1.8.9.nupkg.sha512"
+    },
+    "RestSharp/108.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XKwuwWq7A4dxZ8l9QkS2+ePLJ9ImmLaJSeFO6H2kpII4Us4n1NRs4w3c//8H2BYpL1XqBE8nmsd9aNCVBwXmOA==",
+      "path": "restsharp/108.0.1",
+      "hashPath": "restsharp.108.0.1.nupkg.sha512"
+    },
+    "ShapeCrawler/0.32.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9CKFf78vIXr9Un7H1DKRB4WAfxFppw0r41Fm12L73MR/Eqlnz/yBPH11UySK1RHbvo+4GpoUchhtSoXUMFKVeQ==",
+      "path": "shapecrawler/0.32.0",
+      "hashPath": "shapecrawler.0.32.0.nupkg.sha512"
+    },
+    "SkiaSharp/2.80.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qX6tGNP3+MXNYe2pKm0PCRiJ/cx+LTeLaggwZifB7sUMXhECfKKKHJq45VqZKt37xQegnCCdf1jHXwmHeJQs5Q==",
+      "path": "skiasharp/2.80.3",
+      "hashPath": "skiasharp.2.80.3.nupkg.sha512"
+    },
+    "System.Buffers/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "path": "system.buffers/4.5.1",
+      "hashPath": "system.buffers.4.5.1.nupkg.sha512"
+    },
+    "System.Drawing.Common/5.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rEQZuslijqdsO0pkJn7LtGBaMc//YVA8de0meGihkg9oLPaN+w+/Pb5d71lgp0YjPoKgBKNMvdq0IPnoW4PEng==",
+      "path": "system.drawing.common/5.0.3",
+      "hashPath": "system.drawing.common.5.0.3.nupkg.sha512"
+    },
+    "System.IO.Packaging/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9VV4KAbgRQZ79iEoG40KIeZy38O30oWwewScAST879+oki8g/Wa2HXZQgrhDDxQM4GkP1PnRJll05NMiVPbYAw==",
+      "path": "system.io.packaging/4.7.0",
+      "hashPath": "system.io.packaging.4.7.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Resources.Extensions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KBiqY/+W6hWVwucHBHO76JkgBGyawlxCcP946MhK8dNjalaBgZkyHaux8ko58PENTqQHHjoDa7cfIkAchfJPPA==",
+      "path": "system.resources.extensions/5.0.0",
+      "hashPath": "system.resources.extensions.5.0.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NyscU59xX6Uo91qvhOs2Ccho3AR2TnZPomo1Z0K6YpyztBPM/A5VbkzOO19sy3A3i1TtEnTxA7bCe3Us+r5MWg==",
+      "path": "system.text.encoding.codepages/5.0.0",
+      "hashPath": "system.text.encoding.codepages.5.0.0.nupkg.sha512"
+    }
+  }
+}

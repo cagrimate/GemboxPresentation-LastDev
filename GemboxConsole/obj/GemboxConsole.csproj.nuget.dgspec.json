@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/cagritumer/Projects/GemboxConsole/GemboxConsole/GemboxConsole.csproj": {}
+  },
+  "projects": {
+    "/Users/cagritumer/Projects/GemboxConsole/GemboxConsole/GemboxConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cagritumer/Projects/GemboxConsole/GemboxConsole/GemboxConsole.csproj",
+        "projectName": "GemboxConsole",
+        "projectPath": "/Users/cagritumer/Projects/GemboxConsole/GemboxConsole/GemboxConsole.csproj",
+        "packagesPath": "/Users/cagritumer/.nuget/packages/",
+        "outputPath": "/Users/cagritumer/Projects/GemboxConsole/GemboxConsole/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cagritumer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "GemBox.Pdf": {
+              "target": "Package",
+              "version": "[17.0.1200, )"
+            },
+            "GemBox.Presentation": {
+              "target": "Package",
+              "version": "[25.0.1315, )"
+            },
+            "GemBox.Spreadsheet": {
+              "target": "Package",
+              "version": "[49.0.1103, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.1, )"
+            },
+            "ShapeCrawler": {
+              "target": "Package",
+              "version": "[0.32.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
